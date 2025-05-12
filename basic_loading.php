@@ -68,6 +68,7 @@ function putToDatabase($conn, $name){
     }
 }
 
+// It helped to reset the actual new page without caching.
 function randomString(){
     return "?v=".rand();
 }
