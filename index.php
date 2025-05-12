@@ -64,6 +64,7 @@
         </header>
         <article id="names">
             <table><?php
+// This inserts secret code with password, etc., for database connection. 
 include_once 'dbh.inc.php';
 
 function numberOnlineText($number){
