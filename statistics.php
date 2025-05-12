@@ -64,7 +64,7 @@
         <article id="names">
             <div>
                 <h3 class="napis">Statistiky</h3> <div class="statistics_div"><div><?php
-                
+                // This inserts secret code with password, etc., for database connection. 
                 include_once 'dbh.inc.php';
 
 function numberNames($conn){               
